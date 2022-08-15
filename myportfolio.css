@@ -1,0 +1,496 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+img{
+    max-width:100%;
+}
+
+/*Button style-----------------------------------------*/
+.btn-crimson{
+    background: crimson;
+    margin-top: 20px;
+    padding: 10px 25px   
+}
+.btn-crimson:hover{
+    background: transparent;
+    border: 1px solid crimson;
+    transition: .5s;
+}
+.btn-crimson a{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+.btn-crimson:hover a{
+    color:crimson;
+    transition: .5s;
+}
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* navbar styling--------------------- */
+
+.navbar{
+    transition: all 0.3s ease ;
+    font-family: 'ubuntu', sans-serif;
+    border-bottom: 1px solid wheat;
+}
+.navbar.sticky{
+    background: crimson;
+    padding: 0px 0px;
+    
+}
+.navbar-brand{
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar-brand span{
+    color: crimson;
+    transition: all 0.3s ease ;
+}
+.navbar.sticky .navbar-brand span{
+    color: white;
+}
+
+.nav-link{
+    font-size: 18px;
+    font-weight: 500;
+}
+.active:hover{
+    color: crimson !important;
+    transition: color 0.3s ease;
+}
+.navbar.sticky .active:hover{
+    color: rgb(9, 242, 75) !important;
+}
+
+
+
+/* Background css part ---------------------------------*/
+.back-ground{
+    background-image: url(images/pexels-photo-753994.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 115px 0; 
+    background-attachment: fixed;
+}
+
+.slider-part{
+    margin-top: 40px;
+}
+
+.slider-part .text-1{
+    font-size: 27px;
+    color: white;
+    font-family: 'ubuntu', sans-serif;
+}
+
+.slider-part .text-2{
+    font-size: 75px;
+    font-weight: 600;
+    color: white;
+    font-family: 'ubuntu', sans-serif;
+}
+
+.slider-part .text-3{
+    font-size: 40px;
+    color: white;
+    font-family: 'ubuntu', sans-serif;
+}
+.slider-part .text-3 span{
+    color: crimson;
+    font-weight: 700;
+}
+
+
+
+/* about section part----------------------- */
+
+.about-title h2, .contact-title h2{
+    position: relative;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'ubuntu', sans-serif;
+}
+.about-title h2::before{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 180px;
+    background: #111;
+    bottom: -22px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.about-title h2::after{
+    content: "Who I am";
+    position: absolute;
+    background: #111;
+    bottom: -35px;
+    font-size: 20px;
+    color: crimson;
+    left: 50%;
+    padding: 5px;
+    background: #fff;
+    transform: translateX(-50%);
+}
+
+.about-subtitle h4{
+    font-size: 25px;
+    color: crimson;
+}
+
+.about-img img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.about-details{
+    font-family: 'poppins', sans-serif;
+}
+.about-details h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+.about-details h3 span{
+    color: crimson;
+}
+.about-details p{
+    text-align: justify;
+}
+
+
+
+/* service section part------------------------ */
+
+.service .service-title, .my-teams .teams-title h2{
+    position: relative;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'ubuntu', sans-serif;
+}
+.service .service-title h2::before{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 180px;
+    background: #fff;
+    bottom: -22px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.service-title h2::after{
+    content: "what i provide";
+    position: absolute;
+    background: #111;
+    bottom: -35px;
+    font-size: 20px;
+    color: crimson;
+    left: 50%;
+    padding: 5px;
+    transform: translateX(-50%);
+}
+
+.service{
+    background: #111;
+    color: white;
+    font-family: 'poppins', sans-serif;
+}
+
+.service-title h2{
+    color: white;
+    font-size: 45px;
+    font-family: 'ubuntu', sans-serif;
+}
+.service-title h4{
+    color: crimson;
+    font-size: 25px;   
+}
+
+.service-div{
+    background: #222;
+    padding: 45px 0;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all .6s ease;
+}
+.service-div:hover{
+    background: crimson;
+    transform: scale(1.05);
+}
+.service-div:hover .icon-design i{
+    color: white;
+}
+.service-div .icon-design i{
+    color: crimson;
+    font-size: 50px;
+    margin-bottom: 15px;
+    transition: all .6s ease;
+}
+
+.service-div .under-icon{
+    padding: 0 20px;
+}
+.service-div .under-icon h3{
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+}
+.service-div .under-icon p{
+    color: white;
+    font-size: 18px;
+}
+
+
+
+/* skill part --------------------- */
+
+.skill-title h2{
+    position: relative;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'ubuntu', sans-serif;
+}
+.skill-title h2::before{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 180px;
+    background: #111;
+    bottom: -22px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.skill-title h2::after{
+    content: "what I know";
+    position: absolute;
+    background: #111;
+    bottom: -35px;
+    font-size: 20px;
+    color: crimson;
+    left: 50%;
+    padding: 5px;
+    background: #fff;
+    transform: translateX(-50%);
+}
+
+.skill-detais h4{
+    font-size: 25px;
+    font-weight: 600;
+}
+.skill-detais p{
+    text-align: justify;
+    font-size: 18px;
+}
+
+/* skill part css-------------------------- */
+
+.bars{
+    margin-bottom: 20px;  
+}
+.bars span{
+    font-weight: 600;
+    font-size: 18px;
+}
+.bars .info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bars .line{
+    height: 5px;
+    width: 100%;
+    background: lightgray;
+    position: relative;
+}
+.bars .line::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: crimson;
+}
+.bars .html::before{
+    width: 90%;
+}
+.bars .css::before{
+    width: 70%;
+}
+.bars .bst::before{
+    width: 80%;
+}
+.bars .js::before{
+    width: 60%;
+}
+.bars .react::before{
+    width: 50%;
+}
+
+
+
+/* team section css---------------------------------------- */
+
+.my-teams{
+    background: #111;
+    color: white;
+    font-family: 'poppins', sans-serif;
+}
+
+.teams-title h2::before{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 180px;
+    background: #fff;
+    bottom: -22px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.teams-title h2::after{
+    content: "who with me";
+    position: absolute;
+    background: #111;
+    bottom: -35px;
+    font-size: 20px;
+    color: crimson;
+    left: 50%;
+    padding: 5px;
+    transform: translateX(-50%);
+}
+
+.car{
+    background: #222;
+    border-radius: 6px;
+    padding: 25px 30px;
+    transition: all 0.3s ease;
+}
+.car:hover{
+    background: crimson;
+    color: #fff;
+    transform: scale(1.05);
+}
+.car:hover .box img{
+    border: 5px solid #fff;
+}
+.car .box img{
+    height: 200px !important;
+    width: 200px !important;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid crimson;
+    transition: all 0.3s ease;
+}
+.box .box-img{
+    display: inline-block;
+    text-align: center;
+}
+.car .box .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px;
+}
+
+.owl-dots{
+    margin-top: 20px;
+}
+.owl-dot{
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    border-radius: 50%;
+    outline: none !important;
+    border: 2px solid crimson !important;
+    transition: all 0.3s ease;
+}
+.owl-dot.active{
+    width: 35px;
+    border-radius: 15px;
+}
+
+.owl-dot.active,
+.owl-dot:hover{
+    background: crimson !important;
+}
+
+
+
+/* contact section part-------------------- */
+.contact-section{
+    font-family: 'poppins', sans-serif;
+}
+
+.contact-title h2::before{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 180px;
+    background: #111;
+    bottom: -22px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.contact-title h2::after{
+    content: "get in touch";
+    position: absolute;
+    background: #111;
+    bottom: -35px;
+    font-size: 20px;
+    color: crimson;
+    left: 50%;
+    padding: 5px;
+    background: #fff;
+    transform: translateX(-50%);
+}
+
+.contact-detail .text{
+    font-size: 20px;
+    font-weight: 600;
+}
+.contact-detail p{
+    text-align: justify;
+}
+
+.contact-icon{
+    font-size: 25px;
+    color: crimson;
+}
+.contact-head{
+    margin: 0px -30px;
+}
+.contact-head h4{
+    margin: 0;
+    font-size: 17px;
+}
+.contact-head p{
+    color: #333;
+}
+
+
+
+
+.footer{
+    font-family: 'poppins', sans-serif;
+}
+.footer{
+    background: #111;
+    padding: 15px 10px;
+}
+.footer p{
+    color: white;
+    font-size: 18px;
+}
+.footer p span{
+    color: crimson;
+}
+
+
+
+
+
+
+

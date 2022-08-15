@@ -1,0 +1,137 @@
+@media(max-width:1200px){
+   
+    .about-img{
+        margin-left: -30px;
+    }
+    
+}
+
+
+
+@media(max-width:992px){
+    .slider-part .text-2{
+        font-size: 70px;
+    }
+    .slider-part .text-3{
+        font-size: 35px;
+    }
+    .about-right{
+        margin-top: 0 !important;
+    }
+    .about-details p{
+        font-size: 16px;
+    }
+    .about-right{
+        padding-right: 10px;
+    }
+    .btn-crimson{
+        margin-top: 10px;  
+    }
+    .service-div{
+     margin: 12px 0px;
+    }
+    .main-bar{
+        margin-top: 25px;
+    }
+    .car{
+        padding: 15px 20px;
+    }
+    .contact-head{
+        margin: 0px -55px;
+    }
+    .contact-form{
+        margin-top: 25px;
+    }
+    .contact-form h4{
+        text-align: center;
+    }
+}
+
+
+@media(max-width:767px){
+    .about-details {
+        margin: 30px 0px;
+    }
+    .about-img{
+        text-align: center;
+    }
+    .about-img img{
+        text-align: center;
+        height: 350px;
+        width: 350px;
+        object-fit: cover; 
+    }
+    .about-row{
+        padding: 20px 0px !important;
+    }
+    .service-div{
+        width: 90%;
+        margin: 12px 27px !important;
+    }
+    .contact-head{
+        margin: 0px -30px;
+    }
+
+
+}
+
+
+
+
+@media(max-width:690px){
+    .slider-part .text-2{
+        font-size: 60px;
+    }
+    .slider-part .text-3{
+        font-size: 30px;
+    }
+    .slider-part{
+        margin-top: 30px;
+    }
+    .about-row{
+    padding: 15px 0px !important;
+    }
+}
+
+
+
+@media(max-width:575px){
+    .test1 {
+        width: 68px;
+        height: 30px;
+        display: block;
+    }
+    .test2{
+        width: 50%;
+        display: block;
+    }
+}
+
+
+
+
+@media(max-width:500px){
+    .slider-part .text-2{
+        font-size: 57px;
+    }
+    .slider-part .text-3{
+        font-size: 26px;
+    }
+    .slider-part{
+        margin-top: 25px;
+    }
+    .about-img img{
+        text-align: center;
+        height: 300px;
+        width: 300px;
+    }
+    .service-div{
+        width: 90%;
+        margin: 10px 20px !important;
+    }
+
+    .footer p{
+        font-size: 15px;
+    }
+
+}
