@@ -18,8 +18,11 @@
     .about-right{
         margin-top: 0 !important;
     }
+    .about-details h3{
+        font-size: 20px;
+    }
     .about-details p{
-        font-size: 16px;
+        font-size: 14px;
     }
     .about-right{
         padding-right: 10px;
@@ -105,9 +108,10 @@
         width: 50%;
         display: block;
     }
+    .worked-with .row .col-sm-2{
+        width: 32%;
+    }
 }
-
-
 
 
 @media(max-width:500px){
@@ -120,10 +124,14 @@
     .slider-part{
         margin-top: 25px;
     }
+    .about-img{
+        margin: auto;
+    }
     .about-img img{
-        text-align: center;
-        height: 300px;
         width: 300px;
+    }
+    .about-details h3{
+        font-size: 20px;
     }
     .service-div{
         width: 90%;
@@ -131,7 +139,7 @@
     }
 
     .footer p{
-        font-size: 15px;
+        font-size: 14px;
     }
 
 }

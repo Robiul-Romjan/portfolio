@@ -12,7 +12,8 @@ img{
 .btn-crimson{
     background: crimson;
     margin-top: 20px;
-    padding: 10px 25px   
+    padding: 8px 30px;
+    border-radius: 25px;  
 }
 .btn-crimson:hover{
     background: transparent;
@@ -63,12 +64,13 @@ img{
     transition: color 0.3s ease;
 }
 .navbar.sticky .active:hover{
-    color: rgb(9, 242, 75) !important;
+    color: #0938d1 !important;
 }
 
 
 
 /* Background css part ---------------------------------*/
+
 .back-ground{
     background-image: url(images/pexels-photo-753994.jpeg);
     background-repeat: no-repeat;
@@ -161,6 +163,9 @@ img{
 .about-details p{
     text-align: justify;
 }
+.about-right{
+    margin-top: 15px;
+}
 
 
 
@@ -215,7 +220,7 @@ img{
     padding: 45px 0;
     border-radius: 8px;
     cursor: pointer;
-    transition: all .6s ease;
+    transition: all .5s ease;
 }
 .service-div:hover{
     background: crimson;
@@ -231,17 +236,15 @@ img{
     transition: all .6s ease;
 }
 
-.service-div .under-icon{
-    padding: 0 20px;
-}
 .service-div .under-icon h3{
     color: white;
     font-size: 25px;
     font-weight: 500;
 }
 .service-div .under-icon p{
-    color: white;
-    font-size: 18px;
+    color: rgb(216, 207, 207);
+    font-size: 15px;
+    text-align: justify;
 }
 
 
@@ -280,10 +283,16 @@ img{
 .skill-detais h4{
     font-size: 25px;
     font-weight: 600;
+    font-family: 'ubuntu', sans-serif;
 }
 .skill-detais p{
     text-align: justify;
     font-size: 18px;
+    font-family: 'ubuntu', sans-serif;
+}
+.skill-detais ul li{
+    font-family: 'ubuntu', sans-serif;
+    font-weight: 500;
 }
 
 /* skill part css-------------------------- */
@@ -331,6 +340,12 @@ img{
     width: 50%;
 }
 
+.worked-with p{
+    color: gray;
+    font-style: italic;
+    margin-top: 10px;
+}
+
 
 
 /* team section css---------------------------------------- */
@@ -352,7 +367,7 @@ img{
     transform: translateX(-50%);
 }
 .teams-title h2::after{
-    content: "who with me";
+    content: "who support me";
     position: absolute;
     background: #111;
     bottom: -35px;
@@ -404,7 +419,7 @@ img{
     margin: 0 5px;
     border-radius: 50%;
     outline: none !important;
-    border: 2px solid crimson !important;
+    border: 2px solid crimson!important;
     transition: all 0.3s ease;
 }
 .owl-dot.active{
@@ -454,7 +469,6 @@ img{
 .contact-detail p{
     text-align: justify;
 }
-
 .contact-icon{
     font-size: 25px;
     color: crimson;
@@ -471,8 +485,6 @@ img{
 }
 
 
-
-
 .footer{
     font-family: 'poppins', sans-serif;
 }
@@ -484,9 +496,13 @@ img{
     color: white;
     font-size: 18px;
 }
-.footer p span{
+.footer p a{
     color: crimson;
+    cursor: pointer;
+    transition: .3s;
 }
+
+
 
 
 
