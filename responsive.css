@@ -115,6 +115,9 @@
 
 
 @media(max-width:500px){
+    .back-ground{
+        padding: 70px 0;
+    }
     .slider-part .text-2{
         font-size: 57px;
     }
