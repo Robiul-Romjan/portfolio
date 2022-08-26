@@ -15,6 +15,7 @@
     .slider-part .text-3{
         font-size: 35px;
     }
+  
     .about-right{
         margin-top: 0 !important;
     }
@@ -115,8 +116,8 @@
 
 
 @media(max-width:500px){
-    .back-ground{
-        padding: 70px 0;
+    .side-menubar i{
+        width: 40px;
     }
     .slider-part .text-2{
         font-size: 57px;
@@ -134,7 +135,7 @@
         width: 300px;
     }
     .about-details h3{
-        font-size: 20px;
+        font-size: 18px;
     }
     .service-div{
         width: 90%;
@@ -142,7 +143,7 @@
     }
 
     .footer p{
-        font-size: 14px;
+        font-size: 12px;
     }
 
 }

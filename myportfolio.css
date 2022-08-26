@@ -75,10 +75,11 @@ img{
 /* Background css part ---------------------------------*/
 
 .back-ground{
-    padding: 100px 0;
+    padding: 115px 0;
     background-color: #0c192c;
     position: relative;
     overflow: hidden;
+    height: auto;
 }
 
 .bubble p{
@@ -114,6 +115,7 @@ img{
 
 .slider-part{
     margin-top: 40px;
+    display: inline-block;
 }
 
 .slider-part .text-1{
@@ -137,6 +139,29 @@ img{
 .slider-part .text-3 span{
     color: crimson;
     font-weight: 700;
+}
+
+.side-menubar{
+    display: inline-block;
+    position: absolute;
+    right: 1%;
+    position: fixed;
+    z-index: 999;
+}
+.side-menubar i{
+    color: crimson;
+    width: 50px;
+    margin: 20px 0;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.side-menubar .single-icon i:hover{  
+    transform: scale(2);
+    background: crimson;
+    color: white;
+    border-radius: 10px;
+    padding: 2px 0;
 }
 
 
@@ -277,7 +302,6 @@ img{
 .service-div .under-icon p{
     color: rgb(216, 207, 207);
     font-size: 15px;
-    text-align: justify;
 }
 
 
@@ -499,9 +523,7 @@ img{
     font-size: 20px;
     font-weight: 600;
 }
-.contact-detail p{
-    text-align: justify;
-}
+
 .contact-icon{
     font-size: 25px;
     color: crimson;
