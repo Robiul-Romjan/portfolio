@@ -9,13 +9,13 @@ $(document).ready(function(){
 
     // typing animation scripet----------
     var typed = new Typed(".typing",{
-         strings: ["Developer", "Freelancer", "Desiner"],
+         strings: ["Developer", "Freelancer", "Designer"],
          typeSpeed: 100,
          backSpeed: 60,
          loop: true
     });
     var typed = new Typed(".typing2",{
-         strings: ["Developer", "Freelancer", "Desiner"],
+         strings: ["Developer", "Freelancer", "Designer"],
          typeSpeed: 100,
          backSpeed: 60,
          loop: true
