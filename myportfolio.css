@@ -30,7 +30,9 @@ img{
     transition: .5s;
 }
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-
+.w-full {
+    width: 200px;
+}
 /* navbar styling--------------------- */
 .home-section{
     background-color: #0c192c;
@@ -43,8 +45,7 @@ img{
 }
 .navbar.sticky{
     background: crimson;
-    padding: 0px 0px;
-    
+    padding: 0px 0px;  
 }
 .navbar-brand{
     font-size: 35px;
@@ -537,6 +538,54 @@ img{
 }
 .contact-head p{
     color: #333;
+}
+
+
+/* projects section part------------------------ */
+.project-nav{
+    background: white;
+}
+.projects{
+    margin-top: 80px;
+}
+.projects h2{
+    text-decoration: underline;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'ubuntu', sans-serif;
+}
+.git-link a{
+    margin: 0 5px;
+}
+.git-btn{
+    background: crimson;
+    color: white;
+    padding: 2px 3px;
+}
+
+.project-img-1{
+    height: 350px;
+    width: 100%;
+    background: #000;
+    background-image: url(./images/Game\ Champ.png);
+    background-size: cover;
+    transition: all 8s;
+    cursor: pointer;
+}
+.project-img-2{
+    height: 350px;
+    width: 100%;
+    background: #000;
+    background-image: url(./images/KiddieCorner\ _\ Home.png);
+    background-size: cover;
+    transition: all 8s;
+    cursor: pointer;
+}
+.project-img-1:hover{
+    background-position: bottom;
+}
+.project-img-2:hover{
+    background-position: bottom;
 }
 
 
